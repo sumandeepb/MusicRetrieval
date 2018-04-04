@@ -17,6 +17,10 @@
 */
 
 /*
+    Copyright (C) 2006-2018 Sumandeep Banerjee
+*/
+
+/*
     mfcc.h - Class header file for computing MFCC coefficients
     Beginning Date : June 6, 2006
     Completion Date : June 9, 2006

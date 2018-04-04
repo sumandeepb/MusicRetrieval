@@ -1,4 +1,21 @@
 /*
+    Copyright (C) 2006-2018 Sumandeep Banerjee
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+    
+/*
     main_query.cpp - main routine for query module.
     Beginning Date : June 21, 2006
     Completion Date : June 23, 2006
@@ -20,7 +37,8 @@
 #include "common.h"
 #include "query.h"
 
-int main (int argc, char * argv []) {
+// main_query function
+int main_query (int argc, char * argv []) {
     Query q1;
     clock_t t1, t2;
     Wave w1;
@@ -35,4 +53,6 @@ int main (int argc, char * argv []) {
     q1.query (waveData, w1.getSampleRate (), w1.getNumSamplesPerChannel(), result, 250);
     t2 = clock ();
     printf ("Time for executing query (%s) was %5.3f seconds", argv [1], ((double)t2 - (double)t1) / (double)CLK_TCK);
-}
+    
+    return 0;
+} // end of main_query function

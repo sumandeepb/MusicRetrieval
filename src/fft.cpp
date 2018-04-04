@@ -17,6 +17,10 @@
 */
 
 /*
+    Copyright (C) 2006-2018 Sumandeep Banerjee
+*/
+
+/*
     fft.cpp - Class source file for computing Fast Fourier Transform
     Beginning Date : June 6, 2006
     Completion Date : June 9, 2006

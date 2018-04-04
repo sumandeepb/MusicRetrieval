@@ -17,6 +17,10 @@
 */
 
 /*
+    Copyright (C) 2006-2018 Sumandeep Banerjee
+*/
+
+/*
     fft.h - Class header file for computing Fast Fourier Transform
     Beginning Date : June 6, 2006
     Completion Date : June 9, 2006

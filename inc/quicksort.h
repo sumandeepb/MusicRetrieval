@@ -20,6 +20,10 @@
  */
 
 /*
+    Copyright (C) 2006-2018 Sumandeep Banerjee
+*/
+
+/*
     quicksort.h - Header file for quick sort algoritm
     Beginning Date : June 22, 2006
     Completion Date : June 22, 2006
